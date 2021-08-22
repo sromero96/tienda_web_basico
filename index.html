@@ -7,10 +7,13 @@
 
 </head>
 <body>
-    <h1 class="mensaje_inicial">Aqui esta tu tienda Apple</h1> 
-    <a name="arriba">Ancla</a> <br />
+    <div class="container">
+    <h1 class="titulo_ppal">Aqui esta tu tienda Apple</h1> 
+    <a name="arriba"></a> <br />
     <link rel="stylesheet" href="css/index.css">
-    <img class="foto_ppal" src="img/Tienda.jpg" alt="Tienda Principal" width="600" height="600"/><br>
+    <div class="foto_ppal">
+    <img src="img/Tienda.jpg" alt="Tienda Principal" width="600" height="600"/>
+    </div>
     <nav class="menu">
         <ul>
           <li><span>Direccionar Pagina <a href="https://www.apple.com/co">Link Apple</a></span></li>
@@ -19,12 +22,12 @@
         </ul>
       </nav>
       <section>
-            <h2>Productos Tienda Apple</h2>
+            <h2 class="titulo_productos">Productos Tienda Apple</h2>
             <table>
                 <tr>
-                    <th>iPhone 11 Pro</th>
-                    <th>iPhone 12 Pro</th>
-                    <th>Apple Watch Series 6</th>
+                    <th id="titulo_product">iPhone 11 Pro</th>
+                    <th id="titulo_product">iPhone 12 Pro</th>
+                    <th id="titulo_product">Apple Watch Series 6</th>
                 </tr>
                 <tr>
                     <td><p>El iPhone 11 Pro tiene un revolucionario sistema de tres cámaras, <br />
@@ -36,22 +39,22 @@
                     <td><p>Notificaciones de frecuencia cardiaca alta o baja, Notificación de ritmo cardiaco irregular,<br />
                         Resistente al agua hasta 50 metros,<br />
                         Es el dispositivo ideal para llevar una vida saludable.<br /></p></td>
-                </tr>
-                <tr>
-                    <td><img src="img/Iphone_11_pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                    <td><img src="img/Iphone_12_pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                    <td><img src="img/Series6.jpg"       alt="Imagenes Primer tarea"   width="200" height="150" /></td>
-                </tr>
-                <tr>
-                    <td><img src="img/11pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                    <td><img src="img/12pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                    <td><img src="img/reloj.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                </tr>
-                <tr>
-                    <td><img src="img/11pro2.jpg" alt="Imagenes Primer tarea"  width="200" height="150" /></td>
-                    <td><img src="img/12pro2.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                    <td><img src="img/reloj2.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
-                </tr>
+                    <tr>
+                        class="fotos_producto"
+                        <td class="fotos_producto"><img  src="img/Iphone_11_pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                        <td class="fotos_producto"><img  src="img/Iphone_12_pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                        <td class="fotos_producto"><img  src="img/Series6.jpg"       alt="Imagenes Primer tarea"   width="200" height="150" /></td>
+                    </tr>
+                    <tr>
+                        <td class="fotos_producto"><img src="img/11pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                        <td class="fotos_producto"><img src="img/12pro.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                        <td class="fotos_producto"><img src="img/reloj.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                    </tr>
+                    <tr>
+                        <td class="fotos_producto"><img src="img/11pro2.jpg" alt="Imagenes Primer tarea"  width="200" height="150" /></td>
+                        <td class="fotos_producto"><img src="img/12pro2.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                        <td class="fotos_producto"><img src="img/reloj2.jpg" alt="Imagenes Primer tarea" width="200" height="150" /></td>
+                    </tr>
                 <tr>
                     <td><p>Precio: 3´500.000</p></td>
                     <td><p>Precio: 2´800.000</p></td>
@@ -106,6 +109,7 @@
       
           <a href="#arriba">Link Interno Arriba</a>
 
+        </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
     crossorigin="anonymous"></script>
