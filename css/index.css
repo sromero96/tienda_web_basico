@@ -17,6 +17,14 @@ a:link
     background-color:#fd7e14;
 }
 
+#formulario{
+    text-align: center;
+    background-color: #fd7e14;
+    font-size: x-large;
+    margin-bottom: 40px;
+
+}
+
 #titulo_product1, #titulo_product2, #titulo_product3{
     color: #fd7e14;
     text-align: center;
