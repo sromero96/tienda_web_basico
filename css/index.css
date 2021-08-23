@@ -7,7 +7,7 @@ body{
 
 }
 .titulo_ppal{
-    background-color:#ffc168;
+    background-color: #ffc168;
     margin-bottom: 40px;
     text-align: center;
     font-size: 50px;
@@ -18,14 +18,14 @@ body{
     text-align: center;
     margin-bottom: 40px;
     font-size: xx-large;
-    background-color:#ffc168;
+    background-color: #ffc168;
 
 }
 
 .foto_ppal{
     text-align: center;
     margin-bottom: 80px; 
-    background-color:#ffc168;
+    background-color: #ffc168;
 }
 
 #formulario{
