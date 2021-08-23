@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register{
+    width: 400px;
+    background:#fd7e14 ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+
+}
+
+h6{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#name1, #name2, #name3{
+    width: 100%;
+    background:#fd7e14 ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 15px;
+}
+
+#ingreso_titulo, #ingreso_producto, #ingreso_descripcion, #ingreso_caracteristicas {
+    width: 100%;
+    background:#fd7e14 ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #060483;
+    font-family: 'calibri';
+    font-size: 15px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background:#060483 ;
+    color:white;
+    margin: 16px 0;
+    font-size: 15px;
+
+}
