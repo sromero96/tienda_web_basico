@@ -2,36 +2,51 @@ a:link
 {
     text-decoration: none;
 }
+body{
+    background-color: #acc0ca;
 
-.titulo_productos, .titulo_ppal{
+}
+.titulo_ppal{
+    background-color:#ffc168;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.titulo_productos {
     text-align: center;
     margin-bottom: 40px;
     font-size: xx-large;
-    background-color:#fd7e14;
+    background-color:#ffc168;
 
 }
 
 .foto_ppal{
     text-align: center;
     margin-bottom: 80px; 
-    background-color:#fd7e14;
+    background-color:#ffc168;
 }
 
 #formulario{
     text-align: center;
-    background-color: #fd7e14;
-    font-size: x-large;
+    background-color: #ffc168;
+    font-size: xx-large;
     margin-bottom: 40px;
 
 }
 
+.redireccionamiento{
+    font-size: x-large;
+}
+
 #titulo_product1, #titulo_product2, #titulo_product3{
-    color: #fd7e14;
+    color: #1b2327;
     text-align: center;
     font-size: x-large;
     }
 
-.fotos_producto{
+.fotos_producto1, .fotos_producto2, .fotos_producto3{
     text-align: center;
     margin-bottom: 40px;
 }
@@ -55,6 +70,16 @@ h3, h4, h5{
     background-color: #ffc168;
     margin-bottom: 40px; 
     font-size: x-large;
+}
+
+.footer{
+    background-color: #60a8c4;
+    text-align: center;
+    
+}
+
+.volver{
+    text-align: center;
 }
 
 @media screen and (max-width: 992px){

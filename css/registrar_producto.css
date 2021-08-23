@@ -4,44 +4,51 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #acc0ca;
+}
+
 .form-register{
     width: 400px;
-    background:#fd7e14 ;
+    background:#ffc168 ;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: white;
+    color: #060483
 
 }
 
 h6{
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
-
+    color: #060483;
 }
 
 #name1, #name2, #name3{
     width: 100%;
-    background:#fd7e14 ;
+    background:#ffc168 ;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     font-family: 'calibri';
     font-size: 15px;
+    color: #060483
+    
 }
 
 #ingreso_titulo, #ingreso_producto, #ingreso_descripcion, #ingreso_caracteristicas {
     width: 100%;
-    background:#fd7e14 ;
+    background:#ffc168 ;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #060483;
     font-family: 'calibri';
     font-size: 15px;
+    color: #060483;
 }
 
 .btn-primary{
